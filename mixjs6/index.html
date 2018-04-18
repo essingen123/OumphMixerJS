@@ -1,0 +1,125 @@
+<!-- <!DOCTYPE html> -->
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>maxkilian mixer tool draft</title>
+    <link rel="stylesheet" href="css/Mix.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="HandheldFriendly" content="true">
+<meta name="viewport" content="user-scalable=no">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+<style>
+html {
+    -webkit-text-size-adjust: none
+}
+.label {
+   text-align: right !important;
+}
+</style>
+<!-- <link href='http:fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'> -->
+</head>
+
+<body>
+
+  <header>
+    <h1>maxkilian mixer tool draft</h1>
+  </header>
+
+  <div id="loader">
+    <div class="loader-bar"></div>
+    <span>Loading Audio Assets...</span>
+  </div>
+
+  <div id="mixer">
+
+     <div id="master" class="master channel">
+      <div class="track Master">
+        <div class="fader" style="top: 209px;"></div>
+      </div>
+      <p class="label">Master</p>
+    </div>
+
+    <div id="meters">
+      <div class="vu">
+        <div class="mask">
+          <div class="needle left" style="-webkit-transform: rotateZ(0deg);"></div>
+        </div>
+        <p class="vu-label">L</p>
+      </div>
+      <div class="vu">
+        <div class="mask">
+          <div class="needle right" style="-webkit-transform: rotateZ(0deg);"></div>
+        </div>
+        <p class="vu-label">R</p>
+
+
+
+      </div>
+
+
+      
+    </div>
+
+  </div>
+
+  <div id="controls"></div>
+
+
+
+  <script type="text/template" id="tmpl-track">
+    <div>
+      <div class="mute {{muted}}">M</div>
+      <div class="solo {{soloed}}">S</div>
+      <br class="clear" />
+      <div class="afl {{afl}}">PFL</div>
+      <div class="pan">
+        <div class="panner" style="-webkit-transform: rotate({{pan}}deg); -moz-transform: rotate({{pan}}deg);">
+          <div class="pan-indicator"></div>
+        </div>
+      </div>
+      <div class="track">
+        <div class="fader" style="top: {{gain}}px;"></div>
+        <canvas class="meter" width="8" height="280"></canvas>
+      </div>
+      <p class="label"><input value="{{name}}" /></p>
+    </div>
+  </script>
+
+  <script type="text/template" id="tmpl-controls">
+    <canvas class="clock" width="360" height="120"></canvas>
+    <div class="buttons">
+      <div class="start"></div>
+      <div class="rw"></div>
+      <div class="play {{playing}}"></div>
+      <div class="ff"></div>
+    </div>
+  </script>
+
+  <script src="js/Mix.js"></script>
+
+  <script>
+    /*
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-sssss-1']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https:ssl' : 'http:www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+    */
+  </script>
+<button onclick="apa();">
+  save
+</button>
+<textarea id="save" style="background-color: #afafaf; font-size: 8pt; "> </textarea>>
+<script>
+function apa(){
+var element = document.getElementById("save");
+element.innerHTML = JSON.stringify(App.mix.toJSON(), null, ' ');
+}
+</script>
+</body>
+</html>
