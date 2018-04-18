@@ -1,0 +1,166 @@
+{
+ "name": "Mix demo",
+ "gain": 1.5,
+ "position": 0,
+ "minTime": 0,
+ "maxTime": 512,
+ "playing": false,
+ "duration": 52.97296905517578,
+ "pan": 0,
+ "tracks": [
+  {
+   "name": "maxkilian0.mp3",
+   "path": "sounds/maxkilian0.mp3",
+   "pan": -1,
+   "gain": 0.7620496384297518,
+   "muted": false,
+   "_muted": false,
+   "soloed": false,
+   "afl": true,
+   "duration": 52.97296905517578
+  },
+  {
+   "name": "maxkilian10.mp3",
+   "path": "sounds/maxkilian10.mp3",
+   "pan": -1,
+   "gain": 0.7804116219008262,
+   "muted": false,
+   "_muted": false,
+   "soloed": false,
+   "afl": true,
+   "duration": 3.2432427406311035
+  },
+  {
+   "name": "maxkilian11.mp3",
+   "path": "sounds/maxkilian11.mp3",
+   "pan": -1,
+   "gain": 0.6821258264462808,
+   "muted": false,
+   "_muted": false,
+   "soloed": false,
+   "afl": true,
+   "duration": 3.2432427406311035
+  },
+  {
+   "name": "maxkilian12.mp3",
+   "path": "sounds/maxkilian12.mp3",
+   "pan": -1,
+   "gain": 0.413390547520661,
+   "muted": false,
+   "_muted": false,
+   "soloed": false,
+   "afl": true,
+   "duration": 3.2432427406311035
+  },
+  {
+   "name": "maxkilian12b.mp3",
+   "path": "sounds/maxkilian12b.mp3",
+   "pan": -0.9810486547586639,
+   "gain": 0,
+   "muted": true,
+   "_muted": false,
+   "soloed": false,
+   "afl": true,
+   "duration": 3.2432427406311035
+  },
+  {
+   "name": "maxkilian4jogging.mp3",
+   "path": "sounds/maxkilian4jogging.mp3",
+   "pan": -1,
+   "gain": 0.9864101239669419,
+   "muted": false,
+   "_muted": false,
+   "soloed": false,
+   "afl": true,
+   "duration": 3.2432427406311035
+  },
+  {
+   "name": "maxkilian5.mp3",
+   "path": "sounds/maxkilian5.mp3",
+   "pan": -1,
+   "gain": 0.2518214876033057,
+   "muted": false,
+   "_muted": false,
+   "soloed": false,
+   "afl": true,
+   "duration": 3.2432427406311035
+  },
+  {
+   "name": "maxkilian6.mp3",
+   "path": "sounds/maxkilian6.mp3",
+   "pan": -1,
+   "gain": 0.12265914256198347,
+   "muted": false,
+   "_muted": false,
+   "soloed": false,
+   "afl": true,
+   "duration": 3.2432427406311035
+  },
+  {
+   "name": "maxkilian7.mp3",
+   "path": "sounds/maxkilian7.mp3",
+   "pan": -1,
+   "gain": 0.06035955578512393,
+   "muted": false,
+   "_muted": false,
+   "soloed": false,
+   "afl": true,
+   "duration": 3.2432427406311035
+  },
+  {
+   "name": "maxkilian8.mp3",
+   "path": "sounds/maxkilian8.mp3",
+   "pan": -1,
+   "gain": 0.22627319214876024,
+   "muted": false,
+   "_muted": false,
+   "soloed": false,
+   "afl": true,
+   "duration": 3.2432427406311035
+  },
+  {
+   "name": "maxkilian9.mp3",
+   "path": "sounds/maxkilian9.mp3",
+   "pan": -1,
+   "gain": 0.192800826446281,
+   "muted": false,
+   "_muted": false,
+   "soloed": false,
+   "afl": true,
+   "duration": 3.2432427406311035
+  },
+  {
+   "name": "maxkiliana1.mp3",
+   "path": "sounds/maxkiliana1.mp3",
+   "pan": -1,
+   "gain": 0.16624152892561983,
+   "muted": false,
+   "_muted": false,
+   "soloed": false,
+   "afl": true,
+   "duration": 3.2432427406311035
+  },
+  {
+   "name": "maxkiliana2.mp3",
+   "path": "sounds/maxkiliana2.mp3",
+   "pan": -1,
+   "gain": 0.1837291322314049,
+   "muted": false,
+   "_muted": false,
+   "soloed": false,
+   "afl": true,
+   "duration": 3.2432427406311035
+  },
+  {
+   "name": "maxkiliana3.mp3",
+   "path": "sounds/maxkiliana3.mp3",
+   "pan": -1,
+   "gain": 0.8657456611570248,
+   "muted": false,
+   "_muted": false,
+   "soloed": false,
+   "afl": true,
+   "duration": 3.2432427406311035
+  }
+ ]
+}
